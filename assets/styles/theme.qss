@@ -1,0 +1,56 @@
+QWidget#Form{
+    background: #f5f9fc;
+}
+
+/* Меню */
+QWidget#widget_5{
+    background: #1c5d3b;
+}
+QLabel#label_buy,
+QLabel#label_create,
+QLabel#label_create_IIS,
+QLabel#label_clear,
+QLabel#label_top_up,
+QLabel#label_delete{
+    color: #ffffff;
+}
+
+QLabel#label_buy:hover,
+QLabel#label_create:hover,
+QLabel#label_create_IIS:hover,
+QLabel#label_clear:hover,
+QLabel#label_top_up:hover,
+QLabel#label_delete:hover{
+    color: #73dc98;
+}
+
+QComboBox:editable {
+    background: red;
+}
+
+QWidget#widget_4,
+QWidget#widget_3,
+QWidget#widget_2,
+QWidget#widget_1{
+    background: #ffffff;
+}
+
+QSlider::groove:horizontal {
+    border-radius: 2px;
+    height: 5px;
+    margin: 0 px;
+    background:#f5f9fc;
+}
+QSlider::handle:horizontal {
+    background-color: #17bf46;
+    border: 1px solid lightgrey;
+    height: 20px;
+    width: 8px;
+    border-radius: 5px;
+    margin: -10px 0px;
+}
+
+
+/* color: #73dc98;
+color: #17bf46;
+background: #1c5d3b; */
